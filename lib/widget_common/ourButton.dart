@@ -1,6 +1,6 @@
 import 'package:makhoya_moolah/consts/consts.dart';
 
-Widget ourButton({String? title,onPressed}){
+Widget ourButton({String? title,onPressed , final bool loading=false}){
   return ElevatedButton(
       style: ElevatedButton.styleFrom(
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(30)),
